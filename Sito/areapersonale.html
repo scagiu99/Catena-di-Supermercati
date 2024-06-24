@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area Personale</title>
+	<style type="text/css">
+		body {
+		background-image: url("sfondo.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		}
+		header {
+  		color: navy;
+  		text-align: center;
+  		font-family: "Arial";
+  		font-size: 140%;
+		}
+
+		.navbar{
+			text-align: center;
+			font-size: 140%;
+		}
+
+		ul {
+			list-style-type: none;
+		}
+
+		.uscita {
+			color: black;
+			border-radius: 10px;
+			background-color: gainsboro;
+            font-size: 80%;
+		}
+	</style>
+</head>
+<body link="black" vlink="black">
+	<header>
+		<h1>Area Personale</h1>
+	</header>
+	<ul class="navbar"> 
+		<li>Supermercati</li><br>
+		<li>OrariApertura</li><br>
+		<li><a href="Personale.html">Personale</a></li><br>
+		<li><a href="Reparti.html">Reparti</a></li><br>
+		<li><a href="ClientiFidelizzati.html">ClientiFidelizzati</a></li><br>
+		<li><a href="Scontrini.html">Scontrini</a></li><br>
+		<li>Fatture</li><br>
+		<li>Ricevute</li><br>
+		<li>Catalogo</li><br>
+		<li><a href="Magazzini.html">Magazzini</a></li><br>
+		<li><button class="uscita" onclick="myFunction()">Logout</button></li>
+		</ul>
+
+		<script>
+		function myFunction() {
+  			if (confirm("Sicuro di voler uscire?")) {
+   			 window.location="accesso.html";
+  			} else {
+  			 window.location="areapersonale.html"; 
+			}
+		}
+		</script>
+</body>
+</html>
