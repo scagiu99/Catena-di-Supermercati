@@ -1,7 +1,10 @@
 # Basi-di-Dati-e-Web
 Project for the University Bachelor Degree Course of Database and Web (A.A. 2019-2020)
 
-
+The aim of the project is to design:
+• an Entity-Relationship scheme and its E-R restructured equivalent
+• the SQL database
+• the PHP website to interact with the database
 
 ### APPLICATION DOMAIN DESCRIPTION
 
