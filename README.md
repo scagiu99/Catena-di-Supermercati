@@ -1,5 +1,5 @@
-# Basi-di-Dati-e-Web
-Project for the University Bachelor Degree Course of Database and Web (A.A. 2019-2020)
+# Catena di Supermercati - progetto Basi di Dati e Web
+Project for the University Bachelor Degree Course of Basi di dati e web (A.A. 2019-2020)
 
 The aim of the project is to design:
 
