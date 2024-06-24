@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <style type="text/css">
+        	input.left {
+                float:left;
+                border-radius: 10px;
+                background-color: gainsboro;
+                font-size: 100%;
+            }
+            input.right {
+                float:right;
+                border-radius: 10px;
+                background-color: gainsboro;
+                font-size: 100%;
+            }
+            input.cella {
+                font-size: 100%;
+            }
+            body {
+                background-image: url("sfondo.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                -moz-background-size: cover;
+                -webkit-background-size: cover;
+             }
+             table {
+                font-size: 130%;
+                font-family: "Arial";
+             }
+
+            header {
+            color: green;
+            text-align: center;
+            font-family: "Arial";
+            font-size: 160%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1>SUPERMERCATO</h1>
+        <a href="accesso.html"><img src ="unnamed.jpg" width = "475"></a>
+         </header>
+
+         <div align="center">
+        <form method="post" action="login.php">
+        <table>
+        <tr>
+        	<td>Username</td><td><input type="text" id="username" name="username" class="cella"></td>
+        </tr>
+        <tr>
+           <td>Password</td> <td><input type="password" id="pwd" name="pwd" class="cella"></td>
+        </tr>
+        	<tr>
+             <td></td>
+             <td><input class="left" type="submit" value="Invia"><input class="right" type="reset" value="Cancella"></td>
+   		</tr>
+             </table>
+        </form>
+    </div>
+    </body>
+</html>
