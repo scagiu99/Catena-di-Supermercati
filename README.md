@@ -1,7 +1,7 @@
 # Catena di Supermercati - project of Basi di Dati e Web
 Project for the University Bachelor Degree Course of Basi di Dati e Web (A.A. 2019-2020)
 
-The aim of the project is to design:
+The aim of the project is to design a chain of supermarkets developing:
 
 • an Entity-Relationship scheme and its E-R restructured equivalent
 
